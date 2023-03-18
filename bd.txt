@@ -1,0 +1,11 @@
+
+
+CREATE TABLE "bd_productos" ( 
+  "id" SERIAL,
+  "nombre" VARCHAR(100) NOT NULL,
+  "descripcion" VARCHAR(100) NOT NULL,
+  "cantidad" INT NOT NULL,
+  "precio" DOUBLE PRECISION NOT NULL,
+  "categoria" VARCHAR(100) NOT NULL,
+   PRIMARY KEY ("id")
+);
